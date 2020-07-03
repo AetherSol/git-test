@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags always come first -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <!-- Material Design Bootstrap -->
+      <link href="css/mdb.min.css" rel="stylesheet">
+      <!--My CSS-->
+      <link rel="stylesheet" href="css/war.css" />
+      <!-- Additional CSS must be placed after Bootstrap CSS -->
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+      <link rel="stylesheet" href="css/war.css" />
+      
+      
+      <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Your Logo</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Warframes</a></li>
+                    <li><a href="#">Builds</a></li>
+                    <li><a href="#">Alerts</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+        
+			<h2 class="myH2 font-weight-bold animated fadeInLeftBig">Welcome Tenno. Your assistance is needed.</h2>
+      
+      <div class="row d-flex justify-content-center mb-4">
+
+        
+        <div class="col-md-6">
+
+            
+            <p class="myP grey-text ">Become an Architect of Life and Death in the darkest depths of space.</p>
+
+        </div>
+      
+
+    </div>
+
+    <!--Grid column-->
+    <section class="highlights">
+    <div class="container">
+    <div class="col-md-4 mt-10 text-center relative z-10" style="width:300px;margin:25px" id="Hunt">
+      <img class="animated fadeInRight d-flex mr-3 img-thumbnail" src="img/Ash.jpg" alt="Bootstrap Outfitters" height="480" width="480" />
+      <h4 class="myH2 my-4 font-weight-bold">Hunt</h4>
+      <p class="myP">Hunt with high-tech space ninjas as you race to protect the galaxy from innumberable threats.</p>
+  </div>
+  <div class="relative inline-block mb-10" id="Explore">
+    <video class="img-thumbnail" autoplay loop muted inline style="width:300px;margin:25px">
+        <source src="img/WF1.mp4" type="video/webm">
+        <source src="img/WF1.mp4" type="video/mp4">
+        <img src="img/WF1.mp4"/>
+      </video>
+    </div>
+    <h4 class="myH2 my-4  font-weight-bold">Collect</h4>
+    <p class="myP">Collect various weapons and warframes as you travel the galaxy to defeat dangerous enemies.</p>
+</div>
+</div>
+</section>
+			
+    
+
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+         
+               
+</body>
+      
+ <footer>
+
+ </footer>         
+ 
+ <script src="js/scripts.js"> </script>
+ <script src="js/war.js"></script>
+      
+  
+             
+        
+       
+
+    
